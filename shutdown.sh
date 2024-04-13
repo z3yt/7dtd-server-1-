@@ -21,3 +21,5 @@ expect "World saved\r"
 send "shutdown\r"
 #send "exit\r"
 expect eof
+
+spawn telnet $hostname $port
